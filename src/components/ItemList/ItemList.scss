@@ -1,0 +1,20 @@
+.item-list {
+  &__item {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+    &:nth-child(even) {
+      background-color: ghostwhite;
+    }
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+  &__photo {
+    max-width: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+  }
+}

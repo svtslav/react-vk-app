@@ -1,0 +1,22 @@
+.personal-info {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    &-name {
+      display: inline-flex;
+      color: #828282;
+      min-width: 180px;
+      margin-right: 10px;
+    }
+    &-value {
+      display: inline-flex;
+    }
+  }
+  &__message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+}
